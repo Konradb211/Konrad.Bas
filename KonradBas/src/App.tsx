@@ -1,6 +1,17 @@
-import "./App.css";
+import "./App.scss";
+import { Footer } from "./components/Footer/Footer";
+import { Header } from "./components/Header/Header";
+import { Main } from "./components/Main/Main";
+import { NavigationBar } from "./components/NavigationBar/NavigationBar";
 function App() {
-  return <h1>TEST</h1>;
+  return (
+    <>
+      <NavigationBar />
+      <Header />
+      <Main />
+      <Footer />
+    </>
+  );
 }
 
 export default App;
