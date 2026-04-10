@@ -1,0 +1,37 @@
+.nav {
+    padding-top: 20px;
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        &__icons {
+            a {
+                img {
+                    height: 30px;
+                    width: 30px;
+                }
+            }
+        }
+        &__items {
+            &__container {
+                display: flex;
+                li {
+                    list-style: none;
+                    &:first-child {
+                        padding-left: 0;
+                    }
+                    &:last-child {
+                        a {
+                            padding-right: 0;
+                        }
+                    }
+                    a {
+                        padding: 0 20px;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
