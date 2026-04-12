@@ -7,6 +7,7 @@ function App() {
   return (
     <>
       <NavigationBar />
+      <div className="header-pillow" />
       <Header />
       <Main />
       <Footer />

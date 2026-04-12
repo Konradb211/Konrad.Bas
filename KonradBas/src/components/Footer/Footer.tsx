@@ -1,3 +1,9 @@
+import { Contact } from "../Contact/Contact";
+
 export const Footer = () => {
-  return <footer>STOPKA</footer>;
+  return (
+    <footer>
+      <Contact />
+    </footer>
+  );
 };
