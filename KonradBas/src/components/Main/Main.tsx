@@ -1,3 +1,9 @@
+import { Expierience } from "../Expierence/Expierience";
+
 export const Main = () => {
-  return <main>Main</main>;
+  return (
+    <main>
+      <Expierience />
+    </main>
+  );
 };

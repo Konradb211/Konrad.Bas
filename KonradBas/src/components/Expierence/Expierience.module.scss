@@ -1,0 +1,51 @@
+.expierience {
+    color: var(--color-text);
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        &__item {
+            padding: 20px;
+            background-color: var(--color-card-background);
+            border-radius: 8px;
+
+            &__title {
+                color: var(--color-text);
+                font-weight: bold;
+                text-transform: uppercase;
+                padding-bottom: 10px;
+                font-size: 1.5rem;
+            }
+
+            &__period {
+                color: var(--color-muted-text);
+                font-weight: bold;
+                text-transform: uppercase;
+                font-size: 15px;
+                padding-bottom: 20px;
+            }
+
+            &__responsibilities {
+                color: var(--color-secondary-text);
+                p {
+                    padding-left: 20px;
+                    margin-bottom: 10px;
+                    position: relative;
+
+                    &::before {
+                        position: absolute;
+                        content: "";
+                        width: 6px;
+                        height: 6px;
+                        left: 0;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        background-color: var(--color-accent);
+                    }
+                }
+            }
+        }
+    }
+}

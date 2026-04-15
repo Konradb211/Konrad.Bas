@@ -1,3 +1,12 @@
+:root {
+    --color-background: #212529; // Tło sekcji
+    --color-text: #f0f0f0; // Główny tekst na biało
+    --color-muted-text: #b0b0b0; // Subtelny tekst
+    --color-accent: #ff9e00; // Akcent w pomarańczowym
+    --color-card-background: transparent; // Bez tła na boxy
+    --color-secondary-text: #a0a0a0; // Tekst obowiązków
+}
+
 .container-wide {
     max-width: 1550px;
     width: 100%;
