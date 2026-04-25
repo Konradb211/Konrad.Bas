@@ -1,0 +1,36 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  width: 100%;
+}
+.formContainer label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-bottom: 20px;
+  width: 100%;
+  color: white;
+}
+.formContainer label input,
+.formContainer label textarea {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3137254902);
+  border-radius: 5px;
+  background-color: #2b323d;
+  color: white;
+}
+.formContainer button {
+  padding: 15px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3137254902);
+  border-radius: 5px;
+  background-color: #2b323d;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.formContainer button:hover {
+  background-color: #3a424e;
+}/*# sourceMappingURL=Contact.module.css.map */

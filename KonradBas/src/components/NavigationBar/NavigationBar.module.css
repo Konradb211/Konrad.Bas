@@ -1,0 +1,54 @@
+.nav {
+  position: fixed;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+.nav.scrolled {
+  background-color: white;
+}
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+.nav__container__icons a img {
+  height: 30px;
+  width: 30px;
+}
+.nav__container__items__container {
+  display: flex;
+}
+.nav__container__items__container li {
+  list-style: none;
+}
+.nav__container__items__container li:first-child {
+  padding-left: 0;
+}
+.nav__container__items__container li:last-child a {
+  padding-right: 0;
+}
+.nav__container__items__container li:last-child a::after {
+  display: none;
+}
+.nav__container__items__container li a {
+  padding: 0 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+  color: #fff;
+  position: relative;
+}
+.nav__container__items__container li a::after {
+  content: "";
+  position: absolute;
+  height: 50%;
+  width: 1px;
+  background-color: #fff;
+  right: 0;
+  bottom: 50%;
+  transform: translateY(50%);
+}/*# sourceMappingURL=NavigationBar.module.css.map */

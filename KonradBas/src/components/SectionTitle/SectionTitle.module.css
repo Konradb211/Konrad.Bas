@@ -1,0 +1,7 @@
+.sectionTitle {
+  color: white;
+  font-size: clamp(24px, 1.66vw + 1rem, 50px);
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 70px;
+}/*# sourceMappingURL=SectionTitle.module.css.map */
